@@ -20,4 +20,4 @@ console.log(getPreco.apply(carro))
 
 // a diferença entre o apply e o call é a forma de passar parâmentros como no exemplo abaixo
 console.log(getPreco.call(carro, 0.17, '$'))
-console.log(getPreco.apply(carro, [0.17, '$']))
+console.log(getPreco.apply(global, [0.17, '$']))
