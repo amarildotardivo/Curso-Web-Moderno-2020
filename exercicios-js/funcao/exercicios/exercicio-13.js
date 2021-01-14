@@ -13,7 +13,7 @@ if(dia.toLowerCase() === 'domingo'){
     dia_semana = 5
 }else if(dia.toLowerCase() === 'sexta'){
     dia_semana = 6
-}else if(dia.toLowerCase() === 'sabado'){
+}else if (dia.toLowerCase() === 'sabado'){
     dia_semana = 7
 }
 
