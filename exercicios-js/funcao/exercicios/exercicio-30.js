@@ -3,8 +3,8 @@
 let num_int = [1, 3, 8, 105, 21, 25, 88, 0, 96]
 let tam_vet = num_int.length
 
-maior = 0
-menor = num_int[0]
+let maior = 0
+let menor = num_int[0]
 
 for(i = 0; i < tam_vet; i++){
 
