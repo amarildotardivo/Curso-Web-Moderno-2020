@@ -4,7 +4,7 @@
 // de 7,0 a 8,9 oconceito B 
 // e de 9,0 a 10,0 o conceito A.
 
-let notas = [3.9, 6.0, 8.0, 9.5, 11.0]
+var notas = [3.9, 6.0, 8.0, 9.5, 11.0]
 
 function conceito(notas){
     for(i = 0; i < notas.length; i++){
