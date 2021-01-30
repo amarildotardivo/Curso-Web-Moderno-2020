@@ -24,5 +24,5 @@ console.log(pilotos)
 const algunsPilotos1 = pilotos.slice(2) // novo array
 console.log(algunsPilotos1)
 
-const algunsPilotos2 = pilotos.slice(1, 4)
+const algunsPilotos2 = pilotos.slice(1, 4)// novo array com as posições [1, 2, 3] o 4 não entra
 console.log(algunsPilotos2)
