@@ -21,6 +21,6 @@ function inverso(parametro){
     }
 }
 
-console.log(inverso(true))
-console.log(inverso(-2000))
-console.log(inverso("programação"))
+inverso(true)
+inverso(-2000)
+inverso("programação")

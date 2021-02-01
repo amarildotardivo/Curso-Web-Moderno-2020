@@ -48,4 +48,4 @@ function nomeDoMes(mes){
     }
 }
 
-console.log(nomeDoMes(4))
+nomeDoMes(4)
