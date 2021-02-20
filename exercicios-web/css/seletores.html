@@ -6,7 +6,26 @@
     <title>CSS Selectors</title>
     <link rel="stylesheet" href="css/tag.css">
     <style>
-        /* ... */
+        /* .tag -> (classe) */
+        /* #aprovados -> (id) */
+        /* #aninhado > div -> (pegando a proxima tag do id) */
+        /* #aninhado section -> (pegando a section que está dentro do id aninhado) */
+        /* p + ul -> (proximo) */
+        /* p ~ ol -> (que tenha o mesmo pai) */
+        /* [feira] -> (atributo) */
+        /* [feira=casa] -> (quando o atributo tiver o valor x) */
+        /* [feira~=escritorio] -> (pega o atributo que tiver o valor escritorio) */
+        /* [feira*=sa] -> (pega o aributo que conter o valor sa) */
+        /* span:ntl-child(1) -> (primeiro filho de alguém que é do tipo span) */
+        /* section > :nth-child(odd) -> (filhos impares) */
+        /* section > :nth-child(even) -> (filhos pares) */
+        /* section > :nth-child(odd), ul, p -> (filhos impares e todas as ul's e p's) */
+        /* section > :nth-child(odd) label -> (seleciona apenas os label's dos filhos impares) */
+        /* section > span:nth-of-type(2) -> (selecionando dentro de section o 2º filho do tipo span, começa a partir do 1) */
+        * {
+            color: #ff0;
+            background-color: #f77;
+        }
     </style>
 </head>
 
