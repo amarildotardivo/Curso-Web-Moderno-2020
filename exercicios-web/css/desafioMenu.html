@@ -10,15 +10,102 @@
         * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
         .cabecalho {
-            background-color: black;
+            position: relative;
+            background-color: #1b1b1b;
             height: 70px;
+            border-bottom: solid 3px #4098e0;
         }
 
         .logo {
-            width: 50px;
-            border: solid 5px blue;
+            position: relative;
+            width: 30%;
+            height: 100%;
+            padding: 10px;
+            float: left;
+            /*border: solid 2px red;*/
+        }
+
+        .logo img {
+            width: 250px;
+        }
+
+        .menu-toggle {
+           display: none;
+           margin: 0 auto;
+           /*border: solid 2px purple;*/
+        }
+
+        .menu {
+            position: relative;
+            display: inline-block;
+            height: 100%;
+            padding-top: 20px;
+            /*border: solid 2px blue;*/
+        }
+
+        .menu ul {
+            padding-left: 0px;
+            padding-right: 50px;
+
+        }
+
+        .menu ul li{
+            display: inline;
+            
+        }
+
+        .menu ul li a {
+            padding: 10px;
+        }
+
+        .menu ul li a:hover {
+            background-color: #4098e0;
+            color: #1b1b1b;
+        }
+
+        .autenticacao {
+            float: right;
+            width: 300px;
+            height: 100%;
+            padding-top: 20px;
+            padding-right: 10px;
+            border: solid 2px green;*/
+        }
+
+        .autenticacao a {
+            padding: 0 15px;
+
+        }
+
+        .destaque {
+            background-color: #f04122;
+            border-radius: 15%;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        @media (max-width: 600px) {
+            .menu-toggle { 
+                display: block;
+                float: right;
+            }
+        
+            .menu {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 700px) {
+            .autenticacao {
+                display: none;
+            }
         }
     </style>
 </head>
@@ -27,7 +114,7 @@
     <header class="cabecalho">
         <div class="logo">
             <a href="#inicio">
-                <img src="http://files.cod3r.com.br/curso-web/logo.png" alt="Logo" />
+                <img class="img-logo" src="http://files.cod3r.com.br/curso-web/logo.png" alt="Logo" />
             </a>
         </div>
         <button class="menu-toggle">
